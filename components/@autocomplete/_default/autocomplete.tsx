@@ -82,9 +82,12 @@ export function Autocomplete({
     props.onStateChange,
   ])
 
-  const panelClassName = classNames('absolute w-full z-autocomplete-panel', {
-    hidden: hidePanel,
-  })
+  const panelClassName = classNames(
+    'absolute w-full z-autocomplete-panel inset-x-0',
+    {
+      hidden: hidePanel,
+    }
+  )
 
   return (
     <>

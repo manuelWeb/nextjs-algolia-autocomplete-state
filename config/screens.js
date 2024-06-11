@@ -1,6 +1,6 @@
 const screens = {
   tablet: '768px',
-  laptop: '1440px',
+  laptop: '1152px',
   'can-hover': { raw: '(any-hover: hover)' },
   'cannot-hover': { raw: '(any-hover: none)' },
 }
