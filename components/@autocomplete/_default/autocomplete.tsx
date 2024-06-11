@@ -57,12 +57,12 @@ export function Autocomplete({
       renderer: {
         createElement: createElement as Pragma,
         Fragment,
-        render: () => {},
+        render: () => { },
       },
       render({ children: acChildren }, root) {
         if (!panelRootRef.current || rootRef.current !== root) {
           rootRef.current = root
-          panelRootRef.current?.unmount()
+          // panelRootRef.current?.unmount()
           panelRootRef.current = createRoot(root)
         }
 
@@ -96,7 +96,7 @@ export function Autocomplete({
     props.onStateChange,
   ])
 
-  const panelClassName = classNames('absolute w-full z-autocomplete-panel', {
+  const panelClassName = classNames('absolute w-full z-autocomplete-panel inset-x-0', {
     hidden: hidePanel,
   })
 

@@ -1,3 +1,7 @@
+# remote origin
+
+- <https://github.com/algolia/pwa-ecom-ui-template/blob/develop/layouts/app-layout.tsx>
+
 # PWA Ecom UI Template
 
 This is a React 18/Next.js based template for an ecommerce application, focused on delivering a rich search and discovery experience.
@@ -8,19 +12,20 @@ The design is based on the [Algolia ecommerce UI design kit](https://www.algolia
 <details>
   <summary>Table of content</summary>
 
-  - [Introduction](#introduction)
-  - [Why](#why)
-  - [Getting started](#getting-started)
-  - [Used technologies](#used-technologies)
-    - [Front-end](#front-end)
-    - [The best of the Algolia platform](#the-best-of-the-algolia-platform)
-  - [InstantSearch widgets](#instantsearch-widgets)
-    - [Custom widgets](#custom-widgets)
-    - [Core widgets](#core-widgets)
-  - [Browser support](#browser-support)
-  - [Troubleshooting](#troubleshooting)
-  - [How to contribute](#how-to-contribute)
-  - [License](#license)
+- [Introduction](#introduction)
+- [Why](#why)
+- [Getting started](#getting-started)
+- [Used technologies](#used-technologies)
+  - [Front-end](#front-end)
+  - [The best of the Algolia platform](#the-best-of-the-algolia-platform)
+- [InstantSearch widgets](#instantsearch-widgets)
+  - [Custom widgets](#custom-widgets)
+  - [Core widgets](#core-widgets)
+- [Browser support](#browser-support)
+- [Troubleshooting](#troubleshooting)
+- [How to contribute](#how-to-contribute)
+- [License](#license)
+
 </details>
 
 ## Introduction
@@ -50,7 +55,7 @@ This UI template has two main objectives:
 Wer'e building this UI template with the following guiding principles in mind:
 
 - **Seamless searching and browsing:** navigate the catalog (and more) via a single product listing page for a unified search and browse experience.
-- **Mobile-first:**: optimized for a cross-device device experience with mobile at the heart of it. 
+- **Mobile-first:**: optimized for a cross-device device experience with mobile at the heart of it.
 - **Designed with "real-life" constraints in mind:** don't compromise on performance, SEO, or accessibility. As a start, this template reaches more than 90% on all Lighthouse scores.
 - **Easily customizable:** configure the UI template according to your needs. Create a custom theme, or add new pages to your site.
 - **Modular and extensible by design:** builds on top of [InstantSearch widgets](#instantsearch-widgets) and [Autocomplete.js plugins](https://www.algolia.com/doc/ui-libraries/autocomplete/core-concepts/plugins/), which can be customized and extended.
@@ -79,7 +84,7 @@ You can find the [Getting started](https://www.algolia.com/doc/deprecated/instan
 
 ### The best of the Algolia platform
 
-- ✅ Search (fuzzy search, synonyms, ...) and Browse 
+- ✅ Search (fuzzy search, synonyms, ...) and Browse
 - ✅ AI Re-Ranking
 - ✅ AI Personalisation
 - ✅ Sending Events / Insights API
@@ -114,34 +119,40 @@ These _core_ widgets are part of InstantSearch and are [customized](https://www.
 
 <details>
   <summary>Expand</summary>
-  
-  #### Basics
-  - InstantSearch
-  - Index
-  - Configure
-  - SearchBox (virtual)
 
-  #### Results
-  - Hits/InfiniteHits
-  - Highlight/Snippet
+#### Basics
 
-  #### Refinements
-  - RefinementList
-  - DynamicWidgets
-  - HierarchicalMenu
-  - CurrentRefinements
-  - RangeInput
-  - RatingMenu
-  - ClearRefinements
+- InstantSearch
+- Index
+- Configure
+- SearchBox (virtual)
 
-  #### Metadata
-  - Breadcrumb
-  - Stats
-  - StateResults
+#### Results
 
-  #### Sorting
-  - SortBy
-  - RelevantSort
+- Hits/InfiniteHits
+- Highlight/Snippet
+
+#### Refinements
+
+- RefinementList
+- DynamicWidgets
+- HierarchicalMenu
+- CurrentRefinements
+- RangeInput
+- RatingMenu
+- ClearRefinements
+
+#### Metadata
+
+- Breadcrumb
+- Stats
+- StateResults
+
+#### Sorting
+
+- SortBy
+- RelevantSort
+
 </details>
 
 ## Browser support
@@ -154,7 +165,7 @@ Encountering an issue? Read the [FAQ](https://www.algolia.com/doc/guides/buildin
 
 ## How to contribute
 
-We welcome all contributors, from casual to regular 💙. See [CONTRIBUTING](CONTRIBUTING.md) for more information about the contribution process. 
+We welcome all contributors, from casual to regular 💙. See [CONTRIBUTING](CONTRIBUTING.md) for more information about the contribution process.
 
 - **Bug report**. Is something not working as expected? [Send a bug report](https://github.com/algolia/pwa-ecom-ui-template/issues/new?template=Bug_report.md).
 - **Feature request**. Would you like to add something to the library? [Send a feature request](https://github.com/algolia/pwa-ecom-ui-template/issues/new?template=Feature_request.md).
